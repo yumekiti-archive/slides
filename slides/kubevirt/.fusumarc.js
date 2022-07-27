@@ -1,12 +1,12 @@
 const base = require('../../.fusumarc');
 
-const basePath = 'hoge';
+const basePath = 'kubevirt';
 
 module.exports = {
   meta: {
     ...base.meta,
-    title: 'hoge',
-    description: 'this is hoge',
+    title: 'kubevirt',
+    description: 'this is kubevirt',
     url: `${base.meta.url}${basePath}`,
   },
   slide: {
