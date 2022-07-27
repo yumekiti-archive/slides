@@ -1,11 +1,12 @@
 {
   "config": {
-    "basePath": "."
+    "basePath": "slides/demo",
+    "path": "demo"
   },
   "scripts": {
     "start": "fusuma start",
     "start:prod": "fusuma start-prod",
-    "build": "fusuma build -b $npm_package_config_basePath",
+    "build": "fusuma build -b $npm_package_config_basePath -o ../../dist",
     "deploy": "npm run build && fusuma deploy",
     "pdf": "npm run build && fusuma pdf"
   },
