@@ -8,7 +8,8 @@
     "start:prod": "fusuma start-prod",
     "build": "fusuma build -b $npm_package_config_basePath -o ../../dist",
     "deploy": "npm run build && fusuma deploy",
-    "pdf": "npm run build && fusuma pdf"
+    "pdf": "npm run build && fusuma pdf",
+    "env": "SLIDE=$npm_package_config_path >> $GITHUB_ENV"
   },
   "devDependencies": {
     "fusuma": "^2.8.4"
