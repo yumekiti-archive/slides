@@ -1,3 +1,5 @@
+@import '../../common/styles/globals.css';
+
 /* themes */
 /* When nothing is loaded, the default theme will be applied. */
 /* see https://github.com/hiroppy/fusuma#themes */
@@ -25,9 +27,7 @@
 /* --account-icon-size: 3rem; */
 /* } */
 
-.title {
-}
+.title {}
 
 /* https://hiroppy.github.io/fusuma/docs/guides/slide-syntax#declaring-section-title */
-.section-title {
-}
+.section-title {}

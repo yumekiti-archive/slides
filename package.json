@@ -1,6 +1,6 @@
 {
   "config": {
-    "slide": "slides/demo"
+    "slide": "slides/kubevirt"
   },
   "scripts": {
     "start": "fusuma start -b $npm_package_config_slide",
