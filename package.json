@@ -1,15 +1,13 @@
 {
   "config": {
-    "basePath": "slides/demo",
-    "path": "demo"
+    "basePath": "slides/demo"
   },
   "scripts": {
     "start": "fusuma start",
     "start:prod": "fusuma start-prod",
     "build": "fusuma build -b $npm_package_config_basePath -o ../../dist",
     "deploy": "npm run build && fusuma deploy",
-    "pdf": "npm run build && fusuma pdf",
-    "env": "SLIDE=$npm_package_config_path >> $GITHUB_ENV"
+    "pdf": "npm run build && fusuma pdf"
   },
   "devDependencies": {
     "fusuma": "^2.8.4"
