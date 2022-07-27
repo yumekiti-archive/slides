@@ -3,14 +3,18 @@
     "slide": "slides/demo"
   },
   "scripts": {
-    "start": "fusuma start",
-    "start:prod": "fusuma start-prod",
+    "start": "fusuma start -b $npm_package_config_slide",
+    "start:prod": "fusuma start-prod -b $npm_package_config_slide",
     "build": "fusuma build -b $npm_package_config_slide -o ../../dist",
-    "deploy": "npm run build && fusuma deploy",
-    "pdf": "npm run build && fusuma pdf",
+    "deploy": "npm run build  && fusuma deploy -b $npm_package_config_slide",
+    "pdf": "npm run build && fusuma pdf -b $npm_package_config_slide",
     "echo": "echo $npm_package_config_slide"
   },
   "devDependencies": {
     "fusuma": "^2.8.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-icons": "^4.4.0"
   }
 }
