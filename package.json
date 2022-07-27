@@ -1,0 +1,16 @@
+{
+  "config": {
+    "basePath": "slides/demo"
+  },
+  "scripts": {
+    "start": "fusuma start",
+    "start:prod": "fusuma start-prod",
+    "build": "fusuma build -b $npm_package_config_basePath",
+    "deploy": "npm run build && fusuma deploy",
+    "pdf": "npm run build && fusuma pdf"
+  },
+  "homepage": "https://github.com/hiroppy/slides#readme",
+  "devDependencies": {
+    "fusuma": "^2.8.4"
+  }
+}
