@@ -2,9 +2,9 @@
 
 ---
 
-- 自宅サーバーをIaaS環境にしたい！
-- ICTSCの問題サーバー構築してみたい
-- AWSなどIaaSの需要が高まっている。
+- 自宅サーバーを IaaS 環境にしたい！
+- ICTSC の問題サーバー構築してみたい
+- AWS など IaaS の需要が高まっている。
 
 <img src="../images/aws.png" style={{width: '30%'}} />
 
@@ -14,4 +14,4 @@
 
 ---
 
-### <span style={{color: 'orange'}}>IaaS構築・運用</span>
+### <span style={{color: 'orange'}}>IaaS 構築・運用</span>

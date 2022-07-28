@@ -10,6 +10,6 @@
 
 ---
 
-KubeVirtについて学ぶ
+KubeVirt について学ぶ
 
 <img src="../../images/icon.png" style={{width: '20%'}} />

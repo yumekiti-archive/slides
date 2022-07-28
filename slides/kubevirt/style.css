@@ -27,7 +27,9 @@
 /* --account-icon-size: 3rem; */
 /* } */
 
-.title {}
+.title {
+}
 
 /* https://hiroppy.github.io/fusuma/docs/guides/slide-syntax#declaring-section-title */
-.section-title {}
+.section-title {
+}

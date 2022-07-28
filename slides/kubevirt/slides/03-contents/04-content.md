@@ -2,7 +2,7 @@
 
 ---
 
-## VMを⼤量に起動する
+## VM を⼤量に起動する
 
 ---
 
@@ -25,15 +25,15 @@ spec:
       domain:
         devices:
           disks:
-          - disk:
-            name: containerdisk
+            - disk:
+              name: containerdisk
         resources:
           requests:
             memory: 64M
       volumes:
-      - name: containerdisk
-        containerDisk:
-          image: kubevirt/cirros-registry-disk-demo
+        - name: containerdisk
+          containerDisk:
+            image: kubevirt/cirros-registry-disk-demo
 ```
 
 ---
@@ -58,11 +58,11 @@ containerDisk:
 
 ---
 
-k8sの機能は動くのか
+k8s の機能は動くのか
 
 ---
 
-k8sには<span style={{color: 'orange'}}>オートヒーリング</span>機能と言うPodが停止すると<br />自動的に再起動してくれる機能がある、<br />その機能がKubeVirtにも機能するかを検証する
+k8s には<span style={{color: 'orange'}}>オートヒーリング</span>機能と言う Pod が停止すると<br />自動的に再起動してくれる機能がある、<br />その機能が KubeVirt にも機能するかを検証する
 
 ---
 

@@ -4,6 +4,6 @@ module.exports = {
   meta: {
     siteName: "yumekiti's slides",
     sns: ['twitter'],
-    url: baseUrl
-  }
+    url: baseUrl,
+  },
 };

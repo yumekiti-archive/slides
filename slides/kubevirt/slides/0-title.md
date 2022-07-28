@@ -1,6 +1,6 @@
 import { SNSList } from '../../../common/components/snsList';
 
-## KubernetesでのIaaS環境について
+## Kubernetes での IaaS 環境について
 
 ネットワークゼミ
 
