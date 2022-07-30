@@ -6,7 +6,7 @@
     "start": "fusuma start -b $npm_package_config_slide",
     "start:prod": "fusuma start-prod -b $npm_package_config_slide",
     "build": "fusuma build -b $npm_package_config_slide -o ../../dist",
-    "deploy": "npm run build  && fusuma deploy -b $npm_package_config_slide",
+    "deploy": "fusuma build -b $npm_package_config_slide -o dist && fusuma deploy -b $npm_package_config_slide",
     "pdf": "fusuma build -b $npm_package_config_slide -o dist && fusuma pdf -b $npm_package_config_slide",
     "echo": "echo $npm_package_config_slide",
     "fmt": "prettier --write **/*.{js,json,css,md}",
