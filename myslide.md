@@ -1,10 +1,11 @@
 ---
 marp: true
-theme: mytheme
+theme: yumekiti
+paginate: true
 ---
 
 <!--
-_class: top
+_class: headline
 -->
 
 # スライドのタイトル
@@ -12,9 +13,9 @@ _class: top
 ---
 
 <!--
-_class: normal
+_class: general
 _header: "Qiita"
-_footer: "スライド"
+_footer: "スライドasddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
 -->
 
 # スライド 1
@@ -24,7 +25,7 @@ _footer: "スライド"
 ---
 
 <!--
-_class: normal
+_class: general
 _header: "Qiita"
 _footer: "スライド"
 -->
@@ -39,7 +40,7 @@ _footer: "スライド"
 ---
 
 <!--
-_class: finish
+_class: general
 -->
 
 # 完
