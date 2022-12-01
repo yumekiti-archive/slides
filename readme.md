@@ -13,8 +13,8 @@ Marp yumekiti Theme is a theme for [Marp](https://marp.app/).
 
 VS Code の設定で `markdown.Marp.themes` と検索し追加ボタンで `https://raw.githubusercontent.com/yumekiti/slides/main/style.css` を追加する
 
-## PDF生成方法
+## サーバー起動方法
 
 ```bash
-docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -p 8080:8080 marpteam/marp-cli ./ --server --theme https://raw.githubusercontent.com/yumekiti/slides/main/style.css
+docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -p 8080:8080 marpteam/marp-cli ./ --server
 ```
