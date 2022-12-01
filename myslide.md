@@ -2,6 +2,7 @@
 marp: true
 theme: yumekiti
 paginate: true
+size: 16:9
 ---
 
 <!--
@@ -19,7 +20,7 @@ _class: general
 
 # 力をいれたこと
 
-**制作・運用**する技術
+## **制作・運用**する技術
 
 ---
 
@@ -31,7 +32,8 @@ _footer: "スライドasddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
 
 # スライド 1
 
-制作だけでは見えないことが<br>運用することで**可視化**できる
+## 制作だけでは見えないことが
+## 運用することで**可視化**できる
 
 ---
 

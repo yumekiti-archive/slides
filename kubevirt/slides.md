@@ -2,6 +2,7 @@
 marp: true
 theme: yumekiti
 paginate: true
+size: 16:9
 ---
 
 <!--
