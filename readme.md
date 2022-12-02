@@ -1,4 +1,4 @@
-# marp-ictsc-theme
+# marp-yumekiti-theme
 
 Marp yumekiti Theme is a theme for [Marp](https://marp.app/).
 
