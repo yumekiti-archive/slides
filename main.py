@@ -46,6 +46,9 @@ markdown_text = markdown_text.replace("_header: ", "")
 # remove ###
 markdown_text = markdown_text.replace("###", "")
 
+# remove <br>
+markdown_text = markdown_text.replace("<br>", "")
+
 for line in markdown_text.splitlines():
   # 改行が2つ以上あるときは1つにする
   if line == "":
