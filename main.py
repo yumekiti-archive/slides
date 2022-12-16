@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# coding: utf-8
+
 import sys
 import os
 
@@ -10,7 +13,7 @@ if len(sys.argv) != 2:
 markdown_dir = sys.argv[1]
 
 # open file
-markdown_file = open(markdown_dir, 'r')
+markdown_file = open(markdown_dir, 'r', encoding='utf-8')
 
 # read file
 markdown_text = markdown_file.read()
@@ -60,7 +63,7 @@ for line in markdown_text.splitlines():
 # ----------------
 
 # write to readme.md
-readme_file = open(reaadme_dir, 'w')
+readme_file = open(reaadme_dir, 'w', encoding='utf-8')
 readme_file.write(markdown_text)
 
 # close file
