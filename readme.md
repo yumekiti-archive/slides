@@ -6,10 +6,10 @@
 
 ## readme.md
 ```sh
-$ python main.py <markdown_file>
+$ python main.py slide.md
 ```
 
 ## index.html
 ```sh
-$ docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli slides.md -o index.html
+$ docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli slide.md -o index.html
 ```
