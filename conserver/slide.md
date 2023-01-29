@@ -23,7 +23,7 @@ _header: "はじめに"
 - 背景・目的
 - 内容
 - 検証
-- まとめ
+- 最後に
 
 ---
 
@@ -52,7 +52,7 @@ _header: "背景・目的"
 -->
 
 ## 目的
-### **ネットワークを自動で構築する**
+### **自動で構築する**
 
 ---
 
@@ -72,6 +72,15 @@ _header: "内容"
 ## やりたいこと
 - コンソールサーバーを用いて、ネットワーク機器に接続し、IPアドレスの設定を行う。
 - 複数の機器に設定を一括で行う。
+
+---
+
+<!--
+_class: general
+_header: "内容"
+-->
+
+![bg 80%](./assets/topology.svg)
 
 ---
 
@@ -97,30 +106,30 @@ _header: "検証"
 
 <!--
 _class: general
-_header: "コンソールサーバー"
+_header: "コンソールサーバーの構築"
 -->
 
-## コンソールサーバー
+## コンソールサーバーの構築
 
-### Raspberry Pi 3 を用いて、<br>コンソールサーバーの構築
+### Raspberry Pi を用いて、<br>コンソールサーバーの構築
 
 ---
 
 <!--
 _class: general
-_header: "コンソールサーバー"
+_header: "コンソールサーバーの構築"
 -->
 
-![bg 50%](./console-1.JPG)
+![bg 50%](./assets/console-1.JPG)
 
 ---
 
 <!--
 _class: general
-_header: "コンソールサーバー"
+_header: "コンソールサーバーの構築"
 -->
 
-![bg 80%](./console-2.png)
+![bg 80%](./assets/console-2.png)
 
 ---
 
@@ -131,7 +140,7 @@ _header: "外部からの接続"
 
 ## 外部からの接続
 
-### CloudFlareを用いてトンネリング
+### CloudFlare Access を用いてトンネリング
 
 ---
 
@@ -140,7 +149,7 @@ _class: general
 _header: "外部からの接続"
 -->
 
-![bg 80%](./cloudflare-1.png)
+![bg 80%](./assets/cloudflare-1.png)
 
 ---
 
@@ -149,7 +158,7 @@ _class: general
 _header: "外部からの接続"
 -->
 
-![bg 80%](./cloudflare-2.png)
+![bg 80%](./assets/cloudflare-2.png)
 
 ---
 
@@ -209,13 +218,13 @@ ansible_network_os=ios
 _class: headline
 -->
 
-# まとめ
+# 最後に
 
 ---
 
 <!--
 _class: general
-_header: "まとめ"
+_header: "最後に"
 -->
 
 ## 今後
@@ -227,9 +236,17 @@ _header: "まとめ"
 
 <!--
 _class: general
-_header: "まとめ"
+_header: "最後に"
 -->
 
 ## まとめ
 
-構築の自動化により、構築の手順が複雑化すると、管理が難しくなる問題を解決できる。
+構築の自動化により、構築の手順が複雑化すると、<br>管理が難しくなる問題を解決できる。
+
+<br>
+
+- やったこと
+  - コンソールサーバーの構築
+  - 外部からの接続
+  - 設定の自動化
+
