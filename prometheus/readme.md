@@ -31,7 +31,7 @@
 - メトリクスを監視し、記録する
 # Prometheusのアーキテクチャ
 
-![bg 90%](assets/architecture.png)
+![bg 90%](https://raw.githubusercontent.com/yumekiti/slides/main/prometheus/assets/architecture.png)
 ## メトリクスとは
 
 コンピューターシステムやサービスの性能や状態を表す数値のこと
@@ -58,7 +58,7 @@
   - prometheus
   - grafana
 
-![bg right:50% contain](assets/architecture.png)
+![bg right:50% contain](https://raw.githubusercontent.com/yumekiti/slides/main/prometheus/assets/architecture.png)
 ## モニタリングツールでのメトリクスの確認
 
 - メトリクスの確認

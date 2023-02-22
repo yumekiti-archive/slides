@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # coding: utf-8
 
+url = "https://raw.githubusercontent.com/yumekiti/slides/main/"
+
 import sys
 import os
 
@@ -11,6 +13,10 @@ if len(sys.argv) != 2:
 
 # command line arguments
 markdown_dir = sys.argv[1]
+markdown_dir = markdown_dir.replace("./", "")
+
+# directory name
+markdown_dirname = markdown_dir.split("/")[-2]
 
 # open file
 markdown_file = open(markdown_dir, 'r', encoding='utf-8')
@@ -59,6 +65,9 @@ for line in markdown_text.splitlines():
   # "で囲まれている行を削除
   if line.startswith('"') and line.endswith('"'):
     markdown_text = markdown_text.replace(line, "")
+
+# change image path
+markdown_text = markdown_text.replace("./assets", url + markdown_dirname + "/assets")
 
 # ----------------
 

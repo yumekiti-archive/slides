@@ -103,7 +103,7 @@ _header: "内容"
 
 ---
 
-![bg 90%](assets/architecture.png)
+![bg 90%](./assets/architecture.png)
 
 ---
 
@@ -168,7 +168,7 @@ _header: "検証"
   - prometheus
   - grafana
 
-![bg right:50% contain](assets/architecture.png)
+![bg right:50% contain](./assets/architecture.png)
 
 ---
 
