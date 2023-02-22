@@ -12,13 +12,13 @@
 複数の構築が複雑化や人為的ミスにより、構築に時間がかかる。
 また、構築の手順が複雑化すると、管理が難しくなる。
 ## 目的
- **自動で構築する**
+**自動で構築する**
 
 # 内容
 ## やりたいこと
 - コンソールサーバーを用いて、ネットワーク機器に接続し、IPアドレスの設定を行う。
 - 複数の機器に設定を一括で行う。
-![bg 80%](./assets/topology.svg)
+![bg 80%](https://raw.githubusercontent.com/yumekiti/slides/main/conserver/assets/topology.svg)
 
 # 検証
 ## やったこと
@@ -27,17 +27,17 @@
 - Ansibleでネットワーク設定の自動化
 ## コンソールサーバーの構築
 
- Raspberry Pi を用いて、コンソールサーバーの構築
-![bg 50%](./assets/console-1.JPG)
-![bg 80%](./assets/console-2.png)
+Raspberry Pi を用いて、コンソールサーバーの構築
+![bg 50%](https://raw.githubusercontent.com/yumekiti/slides/main/conserver/assets/console-1.JPG)
+![bg 80%](https://raw.githubusercontent.com/yumekiti/slides/main/conserver/assets/console-2.png)
 ## 外部からの接続
 
- CloudFlare Access を用いてトンネリング
-![bg 80%](./assets/cloudflare-1.png)
-![bg 80%](./assets/cloudflare-2.png)
+CloudFlare Access を用いてトンネリング
+![bg 80%](https://raw.githubusercontent.com/yumekiti/slides/main/conserver/assets/cloudflare-1.png)
+![bg 80%](https://raw.githubusercontent.com/yumekiti/slides/main/conserver/assets/cloudflare-2.png)
 ## 構築の自動化
 
- ymlファイルに設定を記述し、Ansibleを用いてネットワーク構築を自動化
+ymlファイルに設定を記述し、Ansibleを用いてネットワーク構築を自動化
 ## main.yml
 
 ```yml

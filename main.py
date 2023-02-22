@@ -53,7 +53,7 @@ markdown_text = markdown_text.replace("_class: general", "")
 markdown_text = markdown_text.replace("_header: ", "")
 
 # remove ###
-markdown_text = markdown_text.replace("###", "")
+markdown_text = markdown_text.replace("### ", "")
 
 # remove <br>
 markdown_text = markdown_text.replace("<br>", "")
