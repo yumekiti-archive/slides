@@ -17,3 +17,8 @@ $ python main.py slide.md
 $ DIR=./kubevirt/
 $ docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli $DIR/slide.md --theme ./style.css -o $DIR/index.html
 ```
+
+## server
+```sh
+docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -p 8080:8080 marpteam/marp-cli ./ --server
+```
